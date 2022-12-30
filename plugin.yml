@@ -1,0 +1,7 @@
+---
+name: CobwebMultiProtocol
+api:
+- 4.0.0
+author: CobwebSMP
+main: multiprotocol\CobwebMultiProtocol
+version: 0.0.1
