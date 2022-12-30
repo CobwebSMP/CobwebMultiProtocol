@@ -1,3 +1,2 @@
 # CobwebMultiProtocol
-Multiprotocol support for Pocketmine-MP
-In development
+Multiprotocol support for Pocketmine-MP<br>In development
