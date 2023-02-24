@@ -23,7 +23,7 @@ class CobwebMultiProtocol extends PluginBase implements Listener {
 		$currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
     	if($pk instanceof RequestNetworkSettingsPacket){
     		if($pk->getProtocolVersion()){
-    			if($pk->getProtocolVersion() === $currentProtocol){
+    			if($pk->getProtocolVersion() >= $currentProtocol){
 					
 				}else{
 					$or->disconnect(TextFormat::RED. " CobwebMultiProtocol disconnect: " .TextFormat::WHITE. "Protocol " .$pk->getProtocolVersion(). " is not supported. We support following protocol versions: " . $currentProtocol);
